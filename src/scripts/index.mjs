@@ -1,6 +1,5 @@
 // require('dotenv').config();
-import { createClient } from '@supabase/supabase-js';
-
+import { createClient } from '/node_modules/@supabase/supabase-js';
 // Supabase client for interacting with database
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY)
 function getProductDate(dropDate) {
