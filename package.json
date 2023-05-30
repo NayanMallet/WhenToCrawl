@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lunch": "parcel serve --port 8080 index.html"
+    "lunch": "parcel serve --port 8080 src/index.html"
   },
   "keywords": [],
   "author": "",
