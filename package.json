@@ -2,7 +2,7 @@
   "name": "whentocrawl",
   "version": "1.0.0",
   "description": "",
-  "main": "src/scripts/index.js",
+  "main": "src/scripts/index.mjs",
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
