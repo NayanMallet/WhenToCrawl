@@ -1,5 +1,5 @@
 // require('dotenv').config();
-const { createClient } = require('@supabase/supabase-js');
+import { createClient } from '@supabase/supabase-js';
 
 // Supabase client for interacting with database
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY)
