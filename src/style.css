@@ -1,6 +1,6 @@
 @font-face {
   font-family: "GalanoGrotesque";
-  src: local("GalanoGrotesque Heavy"), local("Roboto-Regular"), url("../fonts/GalanoGrotesque-Heavy.woff2") format("woff2"), url("../fonts/GalanoGrotesque-Heavy.woff") format("woff");
+  src: local("GalanoGrotesque Heavy"), local("Roboto-Regular"), url("fonts/GalanoGrotesque-Heavy.woff2") format("woff2"), url("fonts/GalanoGrotesque-Heavy.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
