@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- ... -->
+    <title>Products</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header style='background: url("./assets/header-background-whentocop.webp") center; background-size: cover;'>
+<h1>WHENTOCRAWL?</h1>
+    <div id="headerBody">
+        <h1 class="headerBodyTitle">CALENDRIER DES DROPS</h1>
+        <div class="filterContainer">
+            <p class="filterTitle">FILTRES DE RECHERCHE</p>
+            <div class="filterBox">
+                <div class="dropdownContainer">
+                    <select id="selectPrice" color="1" class="intputsSelect">
+                        <option value="tous" selected="">Tous les resell</option>
+                        <option value="excellent">Excellent resell</option>
+                        <option value="bon">Bon resell</option>
+                        <option value="moyen">Moyen resell</option>
+                        <option value="mauvais">Mauvais resell</option>
+                    </select>
+                    <select id="selectBrand" color="1" class="intputsSelect">
+                        <option value="tous" selected="">Toutes les marques</option>
+                        <option value="Adidas">Adidas</option>
+                        <option value="Asics">Asics</option>
+                        <option value="Air Jordan">Air Jordan</option>
+                        <option value="Collaborations">Collaborations</option>
+                        <option value="Cactus Plant Flea Market">Cactus Plant Flea Market</option>
+                        <option value="Converse">Converse</option>
+                        <option value="Kith">Kith</option>
+                        <option value="Nike">Nike</option>
+                        <option value="Off-white">Off-white</option>
+                        <option value="Sacai">Sacai</option>
+                        <option value="Stüssy">Stüssy</option>
+                        <option value="Supreme">Supreme</option>
+                        <option value="Yeezy">Yeezy</option>
+                        <option value="New Balance">New Balance</option>
+                    </select>
+                </div>
+                <form class="searchForm">
+                    <input type="text" maxlength="25" placeholder="Rechercher" id="search" class="searchInputFilter" autocomplete="off" value="">
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div id="buttonContainer">
+        <button id="newDropsButton" class="active" autofocus>DROPS À VENIR</button>
+        <button id="postDropsButton" class="">DROPS PASSÉS</button>
+    </div>
+</header>
+<div id="dropContainer">
+</div>
+<!--<button id="show-more">Show More</button>-->
+<script src="scripts/index.js"></script>
+</body>
+</html>

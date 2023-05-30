@@ -1,0 +1,21 @@
+{
+  "name": "whentocrawl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/scripts/index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lunch": "parcel serve --port 8080 src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.22.0",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "puppeteer": "^20.4.0"
+  }
+}
